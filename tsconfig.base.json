@@ -14,7 +14,12 @@
     "skipLibCheck": true,
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
-    "paths": {}
+    "paths": {
+      "@garden2/process-markdown": ["libs/process-markdown/src/index.ts"],
+      "@synesthesia/remark-double-brackets-link": [
+        "libs/remark-double-brackets-link/src/index.ts"
+      ]
+    }
   },
   "exclude": ["node_modules", "tmp"]
 }

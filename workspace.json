@@ -2,6 +2,8 @@
   "version": 2,
   "projects": {
     "digital-garden": "apps/digital-garden",
-    "digital-garden-e2e": "apps/digital-garden-e2e"
+    "digital-garden-e2e": "apps/digital-garden-e2e",
+    "process-markdown": "libs/process-markdown",
+    "remark-double-brackets-link": "libs/remark-double-brackets-link"
   }
 }

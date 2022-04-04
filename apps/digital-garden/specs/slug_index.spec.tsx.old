@@ -1,0 +1,17 @@
+import { render } from '@testing-library/react';
+
+import Slug from '../pages/[...slug]';
+
+describe('Slug', () => {
+  it('should render successfully', () => {
+    const { baseElement } = render(<Slug params={{
+      slug: ["test"]
+    }} filePath={''} content={''} mdx={{
+      compiledSource: '',
+      scope: undefined,
+      frontmatter: undefined
+    }}  />);
+    expect(baseElement).toBeTruthy();
+  });
+});
+

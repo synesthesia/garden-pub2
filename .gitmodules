@@ -1,3 +1,3 @@
 [submodule "notes"]
-	path = notes
+	path = _notes
 	url = git@github.com:synesthesia/garden.git

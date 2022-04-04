@@ -1,0 +1,23 @@
+{
+  "root": "libs/process-markdown",
+  "sourceRoot": "libs/process-markdown/src",
+  "projectType": "library",
+  "targets": {
+    "lint": {
+      "executor": "@nrwl/linter:eslint",
+      "outputs": ["{options.outputFile}"],
+      "options": {
+        "lintFilePatterns": ["libs/process-markdown/**/*.ts"]
+      }
+    },
+    "test": {
+      "executor": "@nrwl/jest:jest",
+      "outputs": ["coverage/libs/process-markdown"],
+      "options": {
+        "jestConfig": "libs/process-markdown/jest.config.js",
+        "passWithNoTests": true
+      }
+    }
+  },
+  "tags": []
+}
