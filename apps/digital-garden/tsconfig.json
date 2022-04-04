@@ -13,6 +13,6 @@
     "isolatedModules": true,
     "incremental": true
   },
-  "include": ["**/*.ts", "**/*.tsx", "**/*.js", "**/*.jsx", "next-env.d.ts", "specs/slug_index.spec.tsx.old"],
+  "include": ["**/*.ts", "**/*.tsx", "**/*.js", "**/*.jsx", "next-env.d.ts", "specs/slug_index.spec.tsx.old", "next.config.js"],
   "exclude": ["node_modules",  "**/*.spec.ts"]
 }

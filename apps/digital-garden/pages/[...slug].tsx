@@ -20,14 +20,14 @@ export function Note({ mdx, ...pageNode }: MDXPage) {
   }: { author: string; tags: string[]; title: string } = frontmatter;
 
   return (
-    <>
+    <div className="prose p-8 overflow-y-auto overflow-x-hidden">
     <div>
       <h1>{title}</h1>
     </div>
     <div>
       <MDXRemote {...mdx} />
     </div>
-    </>
+    </div>
   );
 }
 
