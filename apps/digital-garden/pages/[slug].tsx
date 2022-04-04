@@ -33,6 +33,7 @@ export const getStaticPaths: GetStaticPaths<NoteProps> = async () => {
       }
     ],
     fallback: false
+
   }
 }
 
