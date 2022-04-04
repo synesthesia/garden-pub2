@@ -1,0 +1,7 @@
+{
+  "version": 2,
+  "projects": {
+    "digital-garden": "apps/digital-garden",
+    "digital-garden-e2e": "apps/digital-garden-e2e"
+  }
+}

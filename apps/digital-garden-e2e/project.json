@@ -1,0 +1,28 @@
+{
+  "root": "apps/digital-garden-e2e",
+  "sourceRoot": "apps/digital-garden-e2e/src",
+  "projectType": "application",
+  "targets": {
+    "e2e": {
+      "executor": "@nrwl/cypress:cypress",
+      "options": {
+        "cypressConfig": "apps/digital-garden-e2e/cypress.json",
+        "devServerTarget": "digital-garden:serve"
+      },
+      "configurations": {
+        "production": {
+          "devServerTarget": "digital-garden:serve:production"
+        }
+      }
+    },
+    "lint": {
+      "executor": "@nrwl/linter:eslint",
+      "outputs": ["{options.outputFile}"],
+      "options": {
+        "lintFilePatterns": ["apps/digital-garden-e2e/**/*.{js,ts}"]
+      }
+    }
+  },
+  "tags": [],
+  "implicitDependencies": ["digital-garden"]
+}
